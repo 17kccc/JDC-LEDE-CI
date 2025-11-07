@@ -32,6 +32,8 @@ UPDATE_PACKAGE() {
 UPDATE_PACKAGE "unishare" "kenzok8/small-package" "main" "pkg"
 UPDATE_PACKAGE "webdav2" "kenzok8/small-package" "main" "pkg"
 UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "luci-app-timewol luci-app-wolplus"
+UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
+UPDATE_PACKAGE "passwall2" "xiaorouji/openwrt-passwall2" "main" "pkg"
 
 # if [[ $WRT_REPO == *"lede"* ]]; then
 # 	UPDATE_PACKAGE "alist" "sbwml/luci-app-alist" "main" # 2024年12月3日测试依旧报错
@@ -42,7 +44,7 @@ UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "luci-app-timewol luci-ap
 #UPDATE_PACKAGE "easytier" "lazyoop/networking-artifact" "main" "pkg"
 
 #UPDATE_PACKAGE "luci-app-gecoosac" "lwb1978/openwrt-gecoosac" "main"
-#UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
+
 
 
 # if [[ $WRT_REPO != *"immortalwrt"* ]]; then
