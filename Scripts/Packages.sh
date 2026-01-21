@@ -32,6 +32,7 @@ UPDATE_PACKAGE() {
 UPDATE_PACKAGE "unishare" "kenzok8/small-package" "main" "pkg"
 UPDATE_PACKAGE "webdav2" "kenzok8/small-package" "main" "pkg"
 UPDATE_PACKAGE "adguardhome" "kenzok8/small-package" "main" "pkg"
+UPDATE_PACKAGE "floatip" "kenzok8/small-package" "main" "pkg"
 UPDATE_PACKAGE "passwall2" "Openwrt-Passwall/openwrt-passwall2" "main" "pkg"
 UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
 
