@@ -29,10 +29,9 @@ UPDATE_PACKAGE() {
 }
 
 #UPDATE_PACKAGE "包名" "项目地址" "项目分支" "pkg/name，可选，pkg为从大杂烩中单独提取包名插件；name为重命名为包名"
-UPDATE_PACKAGE "unishare" "kenzok8/small-package" "main" "pkg"
-UPDATE_PACKAGE "webdav2" "kenzok8/small-package" "main" "pkg"
-UPDATE_PACKAGE "adguardhome" "kenzok8/small-package" "main" "pkg"
-UPDATE_PACKAGE "floatip" "kenzok8/small-package" "main" "pkg"
+UPDATE_PACKAGE "unishare" "shidahuilang/openwrt-package" "main" "pkg"
+UPDATE_PACKAGE "webdav2" "shidahuilang/openwrt-package" "main" "pkg"
+UPDATE_PACKAGE "adguardhome" "shidahuilang/openwrt-package" "main" "pkg"
 UPDATE_PACKAGE "passwall2" "Openwrt-Passwall/openwrt-passwall2" "main" "pkg"
 UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
 
