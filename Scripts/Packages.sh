@@ -33,7 +33,7 @@ UPDATE_PACKAGE "unishare" "17kccc/op-packages" "main" "pkg"
 UPDATE_PACKAGE "webdav2" "17kccc/op-packages" "main" "pkg"
 UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
 UPDATE_PACKAGE "passwall2" "Openwrt-Passwall/openwrt-passwall2" "main" "pkg"
-UPDATE_PACKAGE "adguardhome" "17kccc/op-packages" "main" "pkg"
+UPDATE_PACKAGE "luci-app-adguardhome" "17kccc/op-packages" "main"
 #更新软件包版本
 UPDATE_VERSION() {
 	local PKG_NAME=$1
